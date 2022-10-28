@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.menu{
+	font-family: sans-serif;
+	height: 305px;
+	width: 1200px;
+	margin: auto;
+	background: #FFFFFF;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 8px;
+	border-color: #FFFBFB;
+}
+.menu_product{
+	position: relative;
+	float: left;
+	width: 167px;
+	height: 120px;
+	padding: 15px;
+	border: solid thin #FBDFE0;
+	transition: all 0.5s;
+}
+.menu_product_img{
+	text-align: center;
+	padding: 10px;
+}
+.menu_product_img img{
+	height: 60px;
+	width: 60px;
+}
+.menu_product:hover{
+	box-shadow: 2px 2px 7px;
+}
+
+	

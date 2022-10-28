@@ -1,0 +1,70 @@
+.form{
+    
+    background-image: url("../image/R.png");
+    
+}
+
+.login{
+    width: 300px;
+    height: 320px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+
+}
+.login h2{
+    color: #868787;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.login input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.icon{
+    width: 230px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin: auto;
+    /* vertical-align: middle; */
+}
+.check input{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.login button{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+    border:none;
+    background-color: khaki;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.login button:hover{
+    font-size: 15px;
+}
+.check{
+    float: left;
+    padding-left: 40px;
+}
+.forgot{
+    float: right;
+    padding-right: 40px;
+    margin-top: 10px ;
+}
+.signup{
+    float: left;
+    padding-left: 40px;
+    margin-top: 10px;
+}

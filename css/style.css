@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: white
+}
+
+.wrapper {
+	background-color: white
+}
+
+.thandau{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.than1{
+	margin: 10px;
+}
+.than2{
+	margin: 10px;
+}
+.than3{
+	margin: 10px;
+}
+.than4{
+	margin: 10px;
+}
+.than5{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

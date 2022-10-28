@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+.container_phone{
+	height: 1200px;
+	width: 1200px;
+	margin: auto;
+	font-family: sans-serif;
+	border: solid thin #DDDDDD;
+	border-radius: 6px;
+	position: relative;
+	box-shadow: 0 0 3px;
+	background: #FFFFFF;
+}
+.container_phone .container_promotion{
+	height: 30px;
+	width: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.container_phone .container_promotion .poromotion_title_left{
+	width: auto;
+}
+.container_phone .container_promotion .promotion_title_right{
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.container_phone .container_promotion .promotion_title_right .view_all a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.container_phone .container_promotion .promotion_title_right a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+.container_phone .container_promotion h2{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.container_phone .container_product{
+    height: auto;
+    width: 1200px;
+    position: absolute;
+	left: 20px;
+	top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.container_phone .container_product .product{
+	height: auto;
+	width: 24%;
+	border: solid thin #FFFFFF;
+	float: left;
+}
+.container_phone .container_product .product .product_img{
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
+	opacity: 1;
+	transform: scale(1);
+	position: relative;
+}
+.container_phone .container_product .product .product_img .product_label{
+    background: #FF9F03;
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+	padding: 0 8px;
+    line-height: 24px;
+	position: absolute;
+	top: 80%;
+}
+.container_phone .container_product .product .product_info .product_name{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+.container_phone .container_product h3{
+	margin-bottom: 10px;
+}
+.container_phone .container_product .product .product_info{
+	padding: 0 10px 10px;
+}
+.container_phone .container_product .product .product_info .product_price{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-bottom: 10px;
+	height: 30px;
+	width: inherit;
+}
+.container_phone .container_product .product .product_info .product_price .text_left{
+	color: #C80A0D;
+	font-weight: 700;
+	font-size: 18px;
+	float: left;
+	height: 30px;
+}
+.container_phone .container_product .product .product_info .product_price .text_right{
+	text-align: right;
+	float: right;
+	height: 30px;
+	color: #4a4a4a;
+	font-size: 14px;
+	line-height: 15px;
+	margin-bottom: 0;
+}
+.container_phone .container_product .product .product_info .product_price .text_right span{
+	color: #a7a7b1;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.container_phone .container_product .product .product_info .product_price .text_right p{
+	text-decoration-line: line-through;
+	margin: 0;
+}
+.container_phone .container_product .product .product_info .config{
+	background: #f8f9fa;
+	color: #6c757d;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.container_phone .container_product .product .product_info .config .config_icon{
+	color: #a7a7b1;
+	font-size: 14px;
+	line-height: 30px;
+	height: inherit;
+}
+.container_phone .container_product .product .product_info .config .config_icon span{
+	padding-right: 10px;
+}
+.container_phone .container_product .product .product_info .config .config_image{
+	height: 45px;
+	width: 45px;
+	display: inline;
+	padding: 10px;
+}
+.container_phone .container_product .product .product_info .config .config_text{
+	font-size: 13px;
+	color: #999999;
+}
+.container_phone .container_product .product .product_info .config .config_image img{
+	border-radius: 50%;
+	border: solid thin #DDDDDD;
+}
+.container_phone .container_product .product:hover{
+	border: solid thin #DDDDDD;
+	border-radius: 10px;
+}
+.container_phone .container_product .product .product_info .product_name:hover{
+	color: blue;
+}
+.container_phone .container_product .product .product_img img:hover{
+	transform: scale(1.03);
+	transition: all 0.5s;
+}

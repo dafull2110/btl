@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-header{
+	font-family:  Roboto,Helvetica,Arial,sans-serif;
+	position: relative;
+	background: #cd1818;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.logo{
+	padding-right: 80px;
+	height: 60px;
+	width: 150px;
+	line-height: 60px;
+}
+.logo img{
+	height: 50px;
+	width: 200px;
+	padding-top: 5px;
+}
+.search{
+	height: auto;
+	display: flex;
+	padding-top: 11px;
+}
+.search input{
+	height: 35px;
+	width: 400px;
+	line-height: 60px;
+	border-radius: 8px 0 0 8px;
+	border: none;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+.search button{
+	font-size: 15px;
+}
+.search button{
+	width: 50px;
+	height: 40px;
+	background: #333;
+	border-radius: 0 8px 8px 0;
+	color: white;
+	line-height: 32px;
+	border: none;
+	cursor: pointer;
+}
+.application{
+	height: 60px;
+	width: auto;
+	display: flex;
+	margin-left: 100px;
+	padding-top: 5px;
+}
+.application ul{
+	height: 60px;
+	width: 380px;
+}
+.application li{
+	list-style: none;
+	background: #cd1818;
+	display: inline-block;	
+}
+.application button{
+	background: #cd1818;
+	border: none;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+.application i{
+	padding-right: 8px;
+	color: white;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*...........MENU BAR......*/
+.menu-bar{
+	background-color: #212529;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu-bar ul{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 0;
+}
+.menu-bar ul li > a{
+	color: white;
+	font-size: 13px;
+}
+.menu-bar-content > ul > li{
+	padding: 0 15px;
+	transition: all 0.3s ease;
+}
+.menu-bar ul li a i{
+	margin-right: 6px;
+	font-size: 16px;
+	
+}
+/*............................MeNu theo Menu...................*/
+.menu-bar-content ul li{
+	position: relative;	
+	
+}
+.submenu{
+	position: absolute;
+	background-color: #DDD;
+	width: 1000px;
+	height: auto;
+	left: 0;
+	top: 100%;
+	padding: 12px; 
+	display: none;
+	z-index: 10;
+}
+.submenu ul{
+	display:grid;
+	grid-template-columns: 50% 50%;
+	
+}
+.submenu ul li ul  {
+	display: grid;
+	grid-template-columns:50% 50%;
+	
+}
+.submenu ul li{
+	padding : 6px 0;
+}
+
+
+.submenu ul li a{
+	color: #000000;
+	font-size: 15px;
+}
+.submenu ul li:hover{
+	background: none;
+}
+.menu-bar-content ul li:hover .submenu{
+	display: block;
+}
+.submenu{
+	z-index: 10;
+}
+

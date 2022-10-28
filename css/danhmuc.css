@@ -1,0 +1,36 @@
+.prd {
+	border: 1px solid #000;
+    height: 900px;
+    width: 90%;
+    margin: 0 auto
+}
+
+.prd ul.product_list {
+	list-style: none;
+/*
+    display: flex;
+    justify-content: flex-start;
+	justify-content: center;
+*/
+}
+
+.prd ul.product_list li {
+	width: 19%;
+	height: 400px;
+	border: 1px solid #000;
+	margin-right: 10px;	
+	margin-bottom: 10px;
+	float: left;
+	flex-wrap: wrap;
+}
+
+.prd ul.product_list li a {
+	text-decoration: none
+}
+
+img.img_prd {
+    width: 200px;
+    height: 200px;
+	margin-top: 10px;
+	margin-left: 22px;
+}

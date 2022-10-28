@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{
+    display: flex;
+    justify-content: center;
+    background: floralwhite;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3399d2;
+    line-height: 30px;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+li{
+    list-style: none;
+}
+p{
+    font-size: 15px;
+}
+ul{
+    padding: 0 30px;
+}
+.four_column ul{
+    display: flex;
+}
+.four_column li{
+    padding: 0 15px;
+}
+.four_column li a{
+    color: #d0021b;
+    font-size: 20px;
+    font-weight: 700;
+}
+.four_column a:hover{
+    text-decoration: none;
+}
+.four_column li p{
+    font-size: 15px;
+    color: #4a4a4a;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.clear {
+	clear: both;
+}
